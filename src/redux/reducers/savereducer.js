@@ -1,7 +1,6 @@
 import { Add_itmes_save, Delete_itmes_save } from "../contants/productContant";
 
 const intialState={
-    product:[],
     wishlist: []
 }
 
