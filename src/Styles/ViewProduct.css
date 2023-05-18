@@ -1,0 +1,67 @@
+
+.productcard {
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    margin:auto;
+    margin-bottom: 10px;
+  }
+  .productcard.dark {
+    color: #0c0202;
+  }
+
+  .productcard img {
+    width: 25%;
+    max-height: 300px;
+    margin: auto;
+    padding:20px;
+    border-radius: 0.7em;
+  }
+
+  .productcard-body {
+    display: flex;
+    justify-content: space-between;
+  }
+.card-title1{
+    margin: 20px;
+}
+.text-section{
+    max-width:80%;
+    margin: 10px;
+}
+  
+
+  .cta-section {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+ .cta-section::first-child{
+  top: 20px;
+ }
+.btn{
+  border: 10px;
+  width:100%;
+  border-radius: 10%;
+}
+
+  .productcard.bg-light-subtle .cta-section {
+    background-color: #898989;
+    border-color: #898989;
+  }
+
+ 
+
+  .moreproduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:auto ;
+
+  }

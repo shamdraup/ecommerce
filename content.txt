@@ -1,0 +1,14 @@
+size  
+color //raring
+price  //already implemented
+types of tshirt -sleeves , half , semi- everyhting  //categories
+
+
+fliter based on the above values
+
+redux and hooks  based on the choice /saved
+/home
+/carts
+adding to cart CRUD 
+saved for later to add to the cart 
+pagination include

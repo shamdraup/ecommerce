@@ -1,0 +1,57 @@
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+.cart-product {
+  flex-basis: 80%;
+}
+
+.number-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart-component {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  align-items: center; 
+  position: fixed;
+  top: 20%;
+  right: 0;
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.price {
+  font-size: x-large;
+  margin:auto
+}
+
+.number-input-button {
+  width: 40px;
+  height: 100%;
+}
+
+.number-input {
+  text-align: center;
+  margin: 10px;
+  width: 25%;
+}
+
+.product-count {
+
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin:auto;
+}
